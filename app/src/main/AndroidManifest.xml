@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".activities.QRCodeReaderActivity"
+            android:screenOrientation="fullSensor"
+            android:label="@string/qr_code_authentication"/>
+        <activity
+            android:name=".activities.SettingsNotificationsActivity"
+            android:label="@string/notification_settings"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.LastTenNumbersActivity"
+            android:label="@string/last_ten_flagged_numbers"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.NotificationActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activities.AuthActivity"
+            android:screenOrientation="fullSensor"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="fullSensor"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

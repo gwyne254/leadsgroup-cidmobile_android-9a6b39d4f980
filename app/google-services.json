@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1003936290109",
+    "firebase_url": "https://cid-app-72503.firebaseio.com",
+    "project_id": "cid-app-72503",
+    "storage_bucket": "cid-app-72503.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003936290109:android:7002493c4816684a986154",
+        "android_client_info": {
+          "package_name": "com.bauart.calleridreputation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003936290109-ticrupfr3e033riim1l3j3t6kdf9msob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bauart.calleridreputation",
+            "certificate_hash": "5e5b68449feb8cb05d9045b1a92e3ea27fb57a42"
+          }
+        },
+        {
+          "client_id": "1003936290109-tvsdgl8959ht6jdjno9c2da7e837u6di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABycmfvPReSYfplc59YR_nVGiZ_F2gatA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003936290109-tvsdgl8959ht6jdjno9c2da7e837u6di.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1003936290109-8032sqrbna9s49t3dp0ftp8dfuefqso3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bauart.calleridreputation"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
